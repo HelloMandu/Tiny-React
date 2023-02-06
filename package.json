@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scrhhhhhpts": {
     "build": "babel src -d build --plugins=@babel/proposal-class-properties -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +17,8 @@
     "@babel/plugin-proposal-private-methods": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "react": "^18.2.0",
